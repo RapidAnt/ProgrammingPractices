@@ -1,0 +1,11 @@
+C:\Users\Trigal\Desktop\MyProjects\ProgrammingPractices\Quadtree\bin\Debug\netcoreapp3.0\Quadtree.exe
+C:\Users\Trigal\Desktop\MyProjects\ProgrammingPractices\Quadtree\bin\Debug\netcoreapp3.0\Quadtree.deps.json
+C:\Users\Trigal\Desktop\MyProjects\ProgrammingPractices\Quadtree\bin\Debug\netcoreapp3.0\Quadtree.runtimeconfig.json
+C:\Users\Trigal\Desktop\MyProjects\ProgrammingPractices\Quadtree\bin\Debug\netcoreapp3.0\Quadtree.runtimeconfig.dev.json
+C:\Users\Trigal\Desktop\MyProjects\ProgrammingPractices\Quadtree\bin\Debug\netcoreapp3.0\Quadtree.dll
+C:\Users\Trigal\Desktop\MyProjects\ProgrammingPractices\Quadtree\bin\Debug\netcoreapp3.0\Quadtree.pdb
+C:\Users\Trigal\Desktop\MyProjects\ProgrammingPractices\Quadtree\obj\Debug\netcoreapp3.0\Quadtree.csprojAssemblyReference.cache
+C:\Users\Trigal\Desktop\MyProjects\ProgrammingPractices\Quadtree\obj\Debug\netcoreapp3.0\Quadtree.AssemblyInfoInputs.cache
+C:\Users\Trigal\Desktop\MyProjects\ProgrammingPractices\Quadtree\obj\Debug\netcoreapp3.0\Quadtree.AssemblyInfo.cs
+C:\Users\Trigal\Desktop\MyProjects\ProgrammingPractices\Quadtree\obj\Debug\netcoreapp3.0\Quadtree.dll
+C:\Users\Trigal\Desktop\MyProjects\ProgrammingPractices\Quadtree\obj\Debug\netcoreapp3.0\Quadtree.pdb

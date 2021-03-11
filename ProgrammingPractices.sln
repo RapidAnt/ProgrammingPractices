@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{52F0C300-C89C-4812-A5CB-086931BA0A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadtree", "Quadtree\Quadtree.csproj", "{758E08B9-FEEF-42F1-9D5D-E999304F4FA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{758E08B9-FEEF-42F1-9D5D-E999304F4FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758E08B9-FEEF-42F1-9D5D-E999304F4FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758E08B9-FEEF-42F1-9D5D-E999304F4FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758E08B9-FEEF-42F1-9D5D-E999304F4FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{758E08B9-FEEF-42F1-9D5D-E999304F4FA0} = {52F0C300-C89C-4812-A5CB-086931BA0A9D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {175BC539-9C9C-420F-A288-4B0E481F1BA2}
+	EndGlobalSection
+EndGlobal
