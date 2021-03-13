@@ -9,7 +9,7 @@ namespace QuadtreeApp
         static List<Point> Points = new List<Point>();
         static int quadTreeWidth = 80;
         static int quadTreeHeight = 25;
-        static int NumberOfPoints = 200;
+        static int NumberOfPoints = 500;
         static int QuadCapacity = 4;
         static QuadTree qt;
         static Random r;
@@ -111,7 +111,9 @@ namespace QuadtreeApp
 
                 foreach (var allPoint in comparingPoints)
                 {
-                    if ((selectedPoint.X == allPoint.X) && (selectedPoint.Y == allPoint.Y) && selectedPoint.Id != allPoint.Id)
+                    if ((selectedPoint.X == allPoint.X) && 
+                        (selectedPoint.Y == allPoint.Y) && 
+                        selectedPoint.Id != allPoint.Id)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                     }
