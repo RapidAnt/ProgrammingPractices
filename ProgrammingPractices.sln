@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quadtree", "Quadtree\Quadtr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AStarPathFinding", "AStarPathFInding\AStarPathFinding.csproj", "{C6B36BC2-930B-475B-AB32-63B5640C0524}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTreeApp", "BinarySearchTreeApp\BinarySearchTreeApp.csproj", "{B17176C3-CA49-4E7E-AAF2-A77317E585E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{C6B36BC2-930B-475B-AB32-63B5640C0524}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6B36BC2-930B-475B-AB32-63B5640C0524}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6B36BC2-930B-475B-AB32-63B5640C0524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17176C3-CA49-4E7E-AAF2-A77317E585E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17176C3-CA49-4E7E-AAF2-A77317E585E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17176C3-CA49-4E7E-AAF2-A77317E585E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17176C3-CA49-4E7E-AAF2-A77317E585E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{758E08B9-FEEF-42F1-9D5D-E999304F4FA0} = {52F0C300-C89C-4812-A5CB-086931BA0A9D}
 		{C6B36BC2-930B-475B-AB32-63B5640C0524} = {52F0C300-C89C-4812-A5CB-086931BA0A9D}
+		{B17176C3-CA49-4E7E-AAF2-A77317E585E0} = {52F0C300-C89C-4812-A5CB-086931BA0A9D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {175BC539-9C9C-420F-A288-4B0E481F1BA2}
