@@ -34,7 +34,7 @@ namespace TreeApp
 
             foreach (int? item in inorder)
             {
-                System.Console.Write("{0} ", item);
+                System.Console.Write("{0}, ", item);
             }
 
             System.Console.ReadLine();
