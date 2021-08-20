@@ -83,9 +83,9 @@ namespace TreeApp
                 else
                 {
                     // This Node have left and right child as well.
-
-                    /*
-                    Node nextNode = NextNode(rootNode, selectedNode);
+                    
+					/*
+                    Node nextNode = NextNode(root, selectedNode);
                     Node nextNodeParent = GetParentNode(rootNode, nextNode);
 
                     Node selectedNodeParent = GetParentNode(rootNode, selectedNode);
@@ -112,11 +112,11 @@ namespace TreeApp
                     }
 
                     //Delete(nextNode, nodeValue); VS Delete(rootNode, nodeValue);
+                    Delete(nextNode, nodeValue);
                     // nextNode esetén a parentet nem fogja találni
                     // rootNode esetén viszont magát az értéket nem fogja találni a search(), mert meg van sértve a keresőfa az értékek felcserélése miatt
                     // ráadásúl a root jelenleg nem törölhető semmiképp, meert annak nincs parentje, ezért a progi elhasal.
-                    */
-
+					*/
                 }
             }
         }

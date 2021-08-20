@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace TreeApp
 {
@@ -30,7 +31,9 @@ namespace TreeApp
             Node min = btree.Minimum(btree.root);
             Node max = btree.Maximum(btree.root);
 
-            //btree.Delete(btree.root, 5);
+            // int deleteValue = (int)btree.root.Left.Data;
+            // Console.WriteLine("Deleting value {0} from the tree.", deleteValue);
+            // btree.Delete(btree.root, deleteValue);
 
             foreach (int? item in inorder)
             {
