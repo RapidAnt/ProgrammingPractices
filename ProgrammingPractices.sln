@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTreeApp", "Bina
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AStarPathFinding", "AStarPathFInding\AStarPathFinding.csproj", "{C6B36BC2-930B-475B-AB32-63B5640C0524}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoDesignPattern", "MementoDesignPattern\MementoDesignPattern.csproj", "{3766BB84-7E24-4CF5-90DE-1B1238ACA336}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{43D2CCC0-1DFB-44A6-8136-607BE831815E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{C6B36BC2-930B-475B-AB32-63B5640C0524}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6B36BC2-930B-475B-AB32-63B5640C0524}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6B36BC2-930B-475B-AB32-63B5640C0524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3766BB84-7E24-4CF5-90DE-1B1238ACA336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3766BB84-7E24-4CF5-90DE-1B1238ACA336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3766BB84-7E24-4CF5-90DE-1B1238ACA336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3766BB84-7E24-4CF5-90DE-1B1238ACA336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +45,7 @@ Global
 		{758E08B9-FEEF-42F1-9D5D-E999304F4FA0} = {52F0C300-C89C-4812-A5CB-086931BA0A9D}
 		{B17176C3-CA49-4E7E-AAF2-A77317E585E0} = {52F0C300-C89C-4812-A5CB-086931BA0A9D}
 		{C6B36BC2-930B-475B-AB32-63B5640C0524} = {52F0C300-C89C-4812-A5CB-086931BA0A9D}
+		{3766BB84-7E24-4CF5-90DE-1B1238ACA336} = {43D2CCC0-1DFB-44A6-8136-607BE831815E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {175BC539-9C9C-420F-A288-4B0E481F1BA2}
