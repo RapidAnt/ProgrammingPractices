@@ -1,7 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace MementoDesignPattern
 {
+    [Serializable()]
     public class Caretaker
     {
         private List<TextEditorMemento> MementosForUndo { get; set; } = new List<TextEditorMemento>();
@@ -41,6 +45,33 @@ namespace MementoDesignPattern
             }
 
             return memento;
+        }
+
+        public void SaveToFile(string fileName)
+        {
+            Stream SaveFileStream = File.Create(fileName);
+            BinaryFormatter serializer = new BinaryFormatter();
+            serializer.Serialize(SaveFileStream, this);
+            SaveFileStream.Close();
+        }
+
+        public void LoadFromLile(string fileName)
+        {
+            Caretaker caretaker = null;
+
+            if (File.Exists(fileName))
+            {
+                Stream openFileStream = File.OpenRead(fileName);
+                BinaryFormatter deserializer = new BinaryFormatter();
+                caretaker = (Caretaker)deserializer.Deserialize(openFileStream);
+                openFileStream.Close();
+            }
+
+            if (caretaker != null)
+            {
+                MementosForRedo = caretaker.MementosForRedo;
+                MementosForUndo = caretaker.MementosForUndo;
+            }
         }
     }
 }

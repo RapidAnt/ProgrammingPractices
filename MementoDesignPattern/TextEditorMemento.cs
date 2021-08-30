@@ -1,5 +1,8 @@
-﻿namespace MementoDesignPattern
+﻿using System;
+
+namespace MementoDesignPattern
 {
+    [Serializable()]
     public class TextEditorMemento
     {
         private string Text { get; set; }

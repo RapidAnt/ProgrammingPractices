@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace MementoDesignPattern
 {
@@ -6,9 +8,9 @@ namespace MementoDesignPattern
     {
         static void Main(string[] args)
         {
-            Caretaker caretaker = new Caretaker();
             TextEditorOriginator textEditor = new TextEditorOriginator();
-
+            Caretaker caretaker = new Caretaker();
+            
             caretaker.AddMemento(textEditor.CreateMemento());
             textEditor.ShowOriginatorStatus();
 
@@ -20,44 +22,14 @@ namespace MementoDesignPattern
             caretaker.AddMemento(textEditor.CreateMemento());
             textEditor.ShowOriginatorStatus();
 
-            textEditor.AddText(" This is an example for:");
-            caretaker.AddMemento(textEditor.CreateMemento());
-            textEditor.ShowOriginatorStatus();
-
-            textEditor.AddText(" a design pattern.");
-            caretaker.AddMemento(textEditor.CreateMemento());
-            textEditor.ShowOriginatorStatus();
-
             textEditor.SetMemento(caretaker.Undo());
             textEditor.ShowOriginatorStatus();
 
             textEditor.SetMemento(caretaker.Redo());
             textEditor.ShowOriginatorStatus();
 
-            textEditor.SetMemento(caretaker.Undo());
-            textEditor.ShowOriginatorStatus();
-
-            textEditor.AddText(" The Memento design pattern.");
-            caretaker.AddMemento(textEditor.CreateMemento());
-            textEditor.ShowOriginatorStatus();
-
-            textEditor.SetMemento(caretaker.Redo());
-            textEditor.ShowOriginatorStatus();
-
-            textEditor.SetMemento(caretaker.Undo());
-            textEditor.ShowOriginatorStatus();
-
-            textEditor.SetMemento(caretaker.Undo());
-            textEditor.ShowOriginatorStatus();
-
-            textEditor.SetMemento(caretaker.Undo());
-            textEditor.ShowOriginatorStatus();
-
-            textEditor.SetMemento(caretaker.Undo());
-            textEditor.ShowOriginatorStatus();
-
-            textEditor.SetMemento(caretaker.Undo());
-            textEditor.ShowOriginatorStatus();
+            caretaker.SaveToFile("caretaker.dat");
+            caretaker.LoadFromLile("caretaker.dat");
 
             Console.ReadLine();
         }
